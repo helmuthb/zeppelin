@@ -30,7 +30,7 @@ logisticsMapCenterCoordinates: "48.1964423,16.369645"
 logisticsMapMobileCenterCoordinates: "48.1964423,16.369645"
 
 #Tweets feed
-twitterHashTag: "devfestvie"
+twitterHashTag: "devfestvienna"
 twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=900"
 
 # Subscribe
@@ -48,8 +48,8 @@ socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Header
-eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Season", "Vienna", "Berlin", "Zürich"'
+eventDate: "18 - 19 October 2014"
+typeoutTextValues: '"", "2012", "2013", "2014"'
 
 # About Event Block
 eventName: "DevFest Vienna"
