@@ -1,4 +1,4 @@
-# Build settings
+Ôªø# Build settings
 markdown: kramdown
 permalink: pretty
 exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME']
@@ -16,7 +16,7 @@ googleAnalyticsSiteUrl: "helmuthb.github.com"
 
 # Location block
 eventLocationName: "TU Wien"
-eventLocationAddress: "Guﬂhausstraﬂe 27-29, 1040 Wien"
+eventLocationAddress: "Gu√ühausstra√üe 27-29, 1040 Wien"
 eventStartTime: "2014-10-18T10:00"
 eventStartTimeHumanReadable: "10:00"
 eventEndTime: "2014-10-18T19:00"
@@ -49,7 +49,7 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Header
 eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Season", "Vienna", "Berlin", "Z¸rich"'
+typeoutTextValues: '"", "Season", "Vienna", "Berlin", "Z√ºrich"'
 
 # About Event Block
 eventName: "DevFest Vienna"
