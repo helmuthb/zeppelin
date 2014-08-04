@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.48.2 r9819"
    sodipodi:docname="devfest_logo_website.svg"
-   inkscape:export-filename="C:\Users\breitenfellner\Dropbox\DevFest Vienna\devfest_logo_core.png"
+   inkscape:export-filename="C:\Users\breitenfellner\Dropbox\DevFest Vienna\devfest_logo_website.png"
    inkscape:export-xdpi="1200.0858"
    inkscape:export-ydpi="1200.0858">
   <defs
@@ -3177,7 +3177,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="-10.249356"
+     inkscape:cx="-46.677927"
      inkscape:cy="40.857452"
      inkscape:document-units="px"
      inkscape:current-layer="g9114"
@@ -3213,7 +3213,7 @@
      inkscape:label="combined">
     <g
        id="g9253"
-       transform="translate(-86,0)"
+       transform="matrix(0.95,0,0,0.95,-69.127499,29.716355)"
        style="filter:url(#filter9849)">
       <path
          inkscape:connector-curvature="0"
@@ -3480,7 +3480,7 @@
     <g
        style="display:inline"
        id="g9253-0"
-       transform="translate(-86,-64)">
+       transform="matrix(0.95,0,0,0.95,-69.127499,-34.283645)">
       <path
          inkscape:connector-curvature="0"
          id="path9116-6"
@@ -3746,7 +3746,7 @@
     <g
        style="display:inline"
        id="g9253-0-0"
-       transform="translate(-86,64)">
+       transform="matrix(0.95,0,0,0.95,-69.127499,93.716355)">
       <path
          inkscape:connector-curvature="0"
          id="path9116-6-1"
@@ -4020,7 +4020,7 @@
          id="tspan9863"
          x="301.12888"
          y="530.64551"
-         style="font-weight:bold;line-height:89.99999762%;fill:#4d4d4d;stroke:#4d4d4d;-inkscape-font-specification:Calibri Bold">DevFest</tspan><tspan
+         style="font-weight:bold;line-height:89.99999762000000200%;fill:#4d4d4d;stroke:none;-inkscape-font-specification:Calibri Bold">DevFest</tspan><tspan
          sodipodi:role="line"
          x="301.12888"
          y="552.24548"
@@ -4037,7 +4037,7 @@
          id="tspan9863-8"
          x="301.12888"
          y="594.64551"
-         style="font-weight:bold;line-height:89.99999762%;fill:#4d4d4d;stroke:#4d4d4d;-inkscape-font-specification:Calibri Bold">DevFest</tspan><tspan
+         style="font-weight:bold;line-height:89.99999762000000200%;fill:#4d4d4d;stroke:none;-inkscape-font-specification:Calibri Bold">DevFest</tspan><tspan
          sodipodi:role="line"
          x="301.12888"
          y="616.24548"
@@ -4054,11 +4054,11 @@
          id="tspan9863-8-4"
          x="301.12888"
          y="658.64551"
-         style="font-weight:bold;line-height:89.99999762%;fill:#cccccc;stroke:#cccccc;-inkscape-font-specification:Calibri Bold">DevFest</tspan><tspan
+         style="font-weight:bold;line-height:89.99999762000000200%;fill:#e6e6e6;stroke:none;-inkscape-font-specification:Calibri Bold">DevFest</tspan><tspan
          sodipodi:role="line"
          x="301.12888"
          y="680.24548"
-         style="font-weight:bold;line-height:89.99999762%;fill:#cccccc;-inkscape-font-specification:Calibri Bold"
+         style="font-weight:bold;line-height:89.99999762000000200%;fill:#e6e6e6;-inkscape-font-specification:Calibri Bold"
          id="tspan9865-9-1">Vienna</tspan></text>
   </g>
 </svg>
