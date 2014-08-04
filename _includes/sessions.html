@@ -5,8 +5,11 @@
 		<div class="col-lg-10 col-lg-offset-1 rockstar-speakers-list">
 			<h3>Sessions</h3>
 				{% for session in site.data.sessions %}
-				    {% speaker = session.speakers[0] %}
-					{% if speaker.rockstar %}
+				    {% assign speaker_id = session.speakers[0] %}
+					{% for speaker in site.data.speakers %}
+						{% if speaker.id = speaker_id %}
+				    	{% assign speaker = site.data.speakers[speaker_id] %}
+						{% if speaker.rockstar %}
 						<div id="rockstar-speaker-{{ speaker.id }}" class="col-md-3 col-sm-3 col-xs-6 hidden rockstar-speakers-item animated hiding increment-animation" data-id="{{ speaker.id }}" data-animation="fadeInUp" data-delay="500">
 							<div class="top-speaker-item">
 								<div class="flow-img img-circle top-speaker-img" style="background-image: url({{ site.baseurl | append: site.thumbnailsFolder | append: speaker.thumbnailUrl }})"></div>
@@ -15,7 +18,9 @@
 								<div class="sub">{{ speaker.company }}</div>
 							</div>
 						</div>
-					{% endif %}
+						{% endif %}
+						{% endif %}
+					{% endfor %}
 				{% endfor %}
 			
 			<div class="clearfix"></div> 
