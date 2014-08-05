@@ -7,7 +7,7 @@
 				{% for session in site.data.sessions %}
 				    {% assign speaker_id = session.speakers[0] %}
 					{% for speaker in site.data.speakers %}
-						{% if speaker.id = speaker_id %}
+						{% if speaker.id == speaker_id %}
 							{% if speaker.rockstar %}
 						<div id="rockstar-speaker-{{ speaker.id }}" class="col-md-3 col-sm-3 col-xs-6 hidden rockstar-speakers-item animated hiding increment-animation" data-id="{{ speaker.id }}" data-animation="fadeInUp" data-delay="500">
 							<div class="top-speaker-item">
