@@ -569,9 +569,9 @@ h6 {
 }
 #typed-cursor {
     font-weight: 100;
-    -webkit-animation: blink .7s infinite;
-    -ms-animation: blink .7s infinite;
-    animation: blink .7s infinite;
+    -webkit-animation: blink .7s 20;
+    -ms-animation: blink .7s 20;
+    animation: blink .7s 20;
     opacity: 1;
 }
 @-keyframes blink {
