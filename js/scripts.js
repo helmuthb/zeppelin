@@ -263,6 +263,7 @@
     });
 
 
+    $(document).ready(function() {
     //Google plus
     (function() {
         var po = document.createElement('script');
@@ -566,5 +567,6 @@
 
         google.maps.event.addDomListener(window, 'load', initialize);
     }
+    });
 
 })(jQuery);
