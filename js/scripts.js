@@ -226,9 +226,8 @@
         });
 
         if (typeof twitterFeedUrl !== 'undefined') {
-            var yql = 'http://query.yahooapis.com/v1/public/yql?q=' + encodeURIComponent('select * from json where url="' + twitterFeedUrl + '"') + '&format=json&callback=?';
-            $.getJSON(yql, function(data) {
-                $.each(data.query.results.json.json, function(i, gist) {
+            $.getJSON(twitterFeedUrl, function(data) {
+                $.each(data, function(i, gist) {
                     var tweetElement = '<div class="tweet animated fadeInUp hidden"><p class="tweet-text">' + linkify(gist.text) + '</p><p class="tweet-meta">by <a href="https://twitter.com/' + gist.user.screen_name + ' target="_blank">@' + gist.user.screen_name + '</a></p></div>';
                     $('#tweets').append(tweetElement);
                 });
@@ -264,6 +263,7 @@
     });
 
 
+    $(document).ready(function() {
     //Google plus
     (function() {
         var po = document.createElement('script');
@@ -567,5 +567,6 @@
 
         google.maps.event.addDomListener(window, 'load', initialize);
     }
+    });
 
 })(jQuery);

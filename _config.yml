@@ -8,8 +8,8 @@ exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME']
 title: DevFest Vienna 2014
 email: team@devfest.at
 description: "GDG DevFest is a set of events all around the world"
-baseurl: "/zeppelin"
-url: "http://helmuthb.github.com"
+baseurl: ""
+url: "http://test.devfest.at"
 permalink: /blog/:title
 googleAnalyticsTrackingId: "UA-21611117-6"
 googleAnalyticsSiteUrl: "helmuthb.github.com"
@@ -31,7 +31,7 @@ logisticsMapMobileCenterCoordinates: "48.1964423,16.369645"
 
 #Tweets feed
 twitterHashTag: "devfestvienna"
-twitterFeed: "http://api.devfest.at/tweetledee/favoritesjson.php?c=10&cache_interval=900"
+twitterFeed: "/tweetledee/favoritesjson.php?c=10&cache_interval=900"
 
 # Subscribe
 subscribeAction: "http://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
